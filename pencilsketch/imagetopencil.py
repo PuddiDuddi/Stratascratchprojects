@@ -15,3 +15,4 @@ if negativeimg is None:
     sys.exit("Could not read the image.")
 cv.imshow('Grayscale', negativeimg )
 k = cv.waitKey(0)
+cv.imwrite('fatsketchcat.jpg', negativeimg)
